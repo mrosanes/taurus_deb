@@ -1,0 +1,9 @@
+Document: taurus-manual
+Title: Taurus documentation manual
+Author: Tiago Coutinho <tcoutinho@cells.es>
+Abstract: Taurus is the Python binding of the Tango Control System C++ libraries.
+Section: Text
+
+Format: HTML
+Index: /usr/share/doc/python-taurus-doc/html/index.html
+Files: /usr/share/doc/python-taurus-doc/html/*

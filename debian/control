@@ -1,0 +1,75 @@
+Source: taurus
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Picca Frédéric-Emmanuel <picca@debian.org>
+Section: science
+Priority: extra
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               graphviz,
+               libqt4-dev,
+               pyqt4-dev-tools,
+               python-all,
+	       python-enum34,
+               python-guiqwt,
+               python-h5py,
+               python-lxml,
+               python-numpy,
+	       python-pint,
+               python-ply,
+               python-pymca5,
+               python-pytango,
+               python-qt4,
+               python-qwt5-qt4,
+	       python-setuptools,
+               python-sphinx,
+	       python-sphinx-rtd-theme,
+               python-spyderlib,
+               rdfind,
+               symlinks,
+               xauth,
+               xvfb
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/taurus.git
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/taurus.git
+Homepage: http://www.taurus-scada.org
+X-Python-Version: >= 2.6
+
+Package: python-taurus
+Architecture: all
+Section: python
+Depends: ${misc:Depends},
+         ${python:Depends},
+	 python-enum34,
+         python-guiqwt,
+         python-h5py,
+         python-lxml,
+	 python-pint,
+         python-ply,
+         python-pytango,
+         python-qt4,
+         python-qwt5-qt4,
+         python-spyderlib (>= 2.2)
+Recommends: python-pymca5,
+            qt4-designer
+Breaks: python-sardana (<< 1.4.0-1~)
+Provides: ${python:Provides}
+Description: Framework for scientific/industrial CLIs and GUIs - Python2
+ Taurus is a Python framework for control and data acquisition CLIs
+ and GUIs in scientific/industrial environments. It supports multiple
+ control systems or data sources: Tango, EPICS, spec...  New control
+ system libraries can be integrated through plugins.
+ .
+ This is the Python 2 version of the package.
+
+Package: python-taurus-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends},
+         ${sphinxdoc:Depends}
+Description: Framework for scientific/industrial CLIs and GUIs - Documentation
+ Taurus is a Python framework for control and data acquisition CLIs
+ and GUIs in scientific/industrial environments. It supports multiple
+ control systems or data sources: Tango, EPICS, spec...  New control
+ system libraries can be integrated through plugins.
+ .
+ This package contains the documentation for the python-taurus library.

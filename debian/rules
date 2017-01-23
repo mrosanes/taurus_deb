@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=taurus
+export PYBUILD_AFTER_INSTALL_python2=dh_numpy
+export PYBUILD_DISABLE=test
+
+%:
+	dh $@ --with python2,sphinxdoc --buildsystem=pybuild
+
+override_dh_sphinxdoc:
+ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
+	PYBUILD_SYSTEM=custom \
+	PYBUILD_BUILD_ARGS="cd doc && PYTHONPATH={build_dir} http_proxy='127.0.0.1:9' xvfb-run {interpreter} -m sphinx -N -bhtml source build/html" dh_auto_build  # HTML generator
+	dh_installdocs "doc/build/html" -p python-taurus-doc
+	dh_sphinxdoc -O--buildsystem=pybuild
+endif

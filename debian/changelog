@@ -1,0 +1,128 @@
+taurus (4.0.3+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 4.0.3+dfsg
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Mon, 23 Jan 2017 18:39:08 +0100
+
+taurus (4.0.1+dfsg-2) unstable; urgency=medium
+
+  * Updated debian/rules to avoid missing copyright file (Closes: #836945)
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Sun, 11 Sep 2016 09:39:56 +0200
+
+taurus (4.0.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 4.0.1+dfsg
+  * Standards-Version bump to 3.9.8 (nothing to do)
+  * Debian/control
+    + Updated the Vcs-X (git -> https)
+    + Depends:
+      + python-enum34, python-pint, python-pymca5,
+        python-setuptools, python-sphinx-rtd-theme (added)
+      + pymca (removed)
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Sat, 27 Aug 2016 14:44:24 +0200
+
+taurus (3.7.0+dfsg-2) unstable; urgency=medium
+
+  debian/patches
+    + 0001-fix-ordered-dict-import.patch
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Wed, 09 Mar 2016 10:46:59 +0100
+
+taurus (3.7.0+dfsg-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.7.0+dfsg
+  * switch to pybuild
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Wed, 17 Feb 2016 18:43:26 +0100
+
+taurus (3.6.0+dfsg-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.6.0+dfsg
+  * Fix the homepage and contact URL
+  * debian/control
+    - Add the VCS-X
+    - Build-Depends
+      Added xvfb and xauth in order to build the documentation
+      Removed imagemagick and inkscape not needed anymore.
+  * debian/copyright
+    - Use Files-Excluded to remove unwanted files.
+  * debian/watch
+    - Use repacksuffix
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Fri, 24 Jul 2015 18:07:00 +0200
+
+taurus (3.4.0+dfsg-1~exp1) experimental; urgency=medium
+
+  * Imported Upstream version 3.4.0+dfsg
+  * Standards-Version bump to 3.9.6 (nothing to do)
+  * debian/watch use the pypi redirector.
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Fri, 06 Feb 2015 07:43:13 +0100
+
+taurus (3.3.1+dfsg-1) unstable; urgency=high
+
+  * Imported Upstream version 3.3.1+dfsg
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Mon, 27 Oct 2014 11:01:19 +0100
+
+taurus (3.3.0+dfsg-2) unstable; urgency=low
+
+  * debian/control
+    - Add Breaks python-sardana (<< 1.4.0-1~) (Closes: #754811)
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Wed, 06 Aug 2014 10:17:19 +0200
+
+taurus (3.3.0+dfsg-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.3.0+dfsg
+  * debian/copyright
+    - add Files-Excluded to remove embeded copy of python modules
+  * debian/watch
+    - add the dversionmangle option
+  * debian/control
+    - python-spyderlib (>= 2.2)
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Fri, 11 Jul 2014 22:41:11 +0200
+
+taurus (3.2.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.2.0
+  * debian/control
+    - Bump Standards-Version to 3.9.5 (nothing to do)
+    - Build-Dep: add rdfind, symlinks to remove duplicated files in the
+      python-taurus-doc package.
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Sat, 15 Feb 2014 21:03:07 +0100
+
+taurus (3.1.0-1) unstable; urgency=low
+
+  * Imported Upstream version 3.1.0
+  * debian/control
+    - Remove python-all and python-numpy version constraints now that they
+      are fullfiled in all supported Debian versions.
+    - Switch to compat level 9
+    - Bump Standards-Version to 3.9.4 (nothing to do)
+  * Remove patches applyed by the upstream
+    - 0001-forwarded-add-no-doc-option.patch (deleted)
+    - 0002-upstream-fix-for-the-FTBFS-due-to-image-conversion.patch (deleted)
+    - 0003-upstream-fix-tango-icon-resources.patch (deleted)
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Sun, 24 Feb 2013 18:28:28 +0100
+
+taurus (3.0.0-2) unstable; urgency=low
+
+  * Fix FTBFS with inkscape (Closes: #698462)
+    - 0002-upstream-fix-for-the-FTBFS-due-to-image-conversion.patch
+  * All icons are now available (Closes: #698464)
+    - 0003-upstream-fix-tango-icon-resources.patch
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Fri, 18 Jan 2013 21:50:25 +0100
+
+taurus (3.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #614247)
+  * Thanks to Justin B Rye for package description review
+
+ -- Picca Frédéric-Emmanuel <picca@debian.org>  Fri, 20 Apr 2012 21:27:45 +0200
