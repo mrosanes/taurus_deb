@@ -1,3 +1,10 @@
+taurus (4.0.4a0+git20170301.1.8fe85+dfsg-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  * New upstream version 4.0.4a0+git20170301.1.8fe85
+  * Update upstream following dfsg
+
+ -- cfalcon <cfalcon@cells.es>  Wed, 01 Mar 2017 15:52:05 +0000
+
 taurus (4.0.3+dfsg-1) unstable; urgency=medium
 
   * New upstream version 4.0.3+dfsg
