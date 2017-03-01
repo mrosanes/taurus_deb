@@ -1,6 +1,7 @@
 CHANGELOG.md
 LICENSE.txt
 MANIFEST.in
+README.rst
 setup.py
 taurus.bmp
 taurus.png
@@ -388,12 +389,6 @@ lib/taurus/qt/qtgui/compact/__init__.py
 lib/taurus/qt/qtgui/compact/abstractswitcher.py
 lib/taurus/qt/qtgui/compact/basicswitcher.py
 lib/taurus/qt/qtgui/console/__init__.py
-lib/taurus/qt/qtgui/console/taurusconsole.py
-lib/taurus/qt/qtgui/console/taurusconsoleapplication.py
-lib/taurus/qt/qtgui/console/taurusconsoleextensions.py
-lib/taurus/qt/qtgui/console/taurusconsolefactory.py
-lib/taurus/qt/qtgui/console/taurusconsolewidget.py
-lib/taurus/qt/qtgui/console/taurusconsolewindow.py
 lib/taurus/qt/qtgui/container/__init__.py
 lib/taurus/qt/qtgui/container/qcontainer.py
 lib/taurus/qt/qtgui/container/taurusbasecontainer.py

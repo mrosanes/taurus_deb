@@ -96,7 +96,8 @@ class TangoAttrValue(TaurusAttrValue):
         if p.has_failed:
             self.error = PyTango.DevFailed(*p.get_err_stack())
         else:
-            if p.is_empty:  # spectra and images can be empty without failing
+            # spectra and images can be empty without failing
+            if p.is_empty and self._attrRef.data_format != DataFormat._0D:
                 dtype = FROM_TANGO_TO_NUMPY_TYPE.get(
                     self._attrRef._tango_data_type)
                 if self._attrRef.data_format == DataFormat._1D:
@@ -811,7 +812,11 @@ class TangoAttribute(TaurusAttribute):
             limits = limits[0]
         low, high = limits
         low = Quantity(low)
+        if low.unitless:
+            low = Quantity(low.magnitude, self._units)
         high = Quantity(high)
+        if high.unitless:
+            high = Quantity(high.magnitude, self._units)
         TaurusAttribute.setRange(self, [low, high])
         infoex = self._pytango_attrinfoex
         if low.magnitude != float('-inf'):
@@ -829,7 +834,11 @@ class TangoAttribute(TaurusAttribute):
             limits = limits[0]
         low, high = limits
         low = Quantity(low)
+        if low.unitless:
+            low = Quantity(low.magnitude, self._units)
         high = Quantity(high)
+        if high.unitless:
+            high = Quantity(high.magnitude, self._units)
         TaurusAttribute.setWarnings(self, [low, high])
         infoex = self._pytango_attrinfoex
         if low.magnitude != float('-inf'):
@@ -847,7 +856,11 @@ class TangoAttribute(TaurusAttribute):
             limits = limits[0]
         low, high = limits
         low = Quantity(low)
+        if low.unitless:
+            low = Quantity(low.magnitude, self._units)
         high = Quantity(high)
+        if high.unitless:
+            high = Quantity(high.magnitude, self._units)
         TaurusAttribute.setAlarms(self, [low, high])
         infoex = self._pytango_attrinfoex
         if low.magnitude != float('-inf'):
