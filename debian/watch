@@ -1,5 +1,4 @@
 version=3
-opts=repacksuffix=+dfsg,\
-dversionmangle=s/.dfsg//,\
-uversionmangle=s/(rc|a|b|c)/~$1/ \
-http://pypi.debian.net/taurus/taurus-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/taurus-$1\.tar\.gz/ \
+	 https://github.com/taurus-org/taurus/tags .*/v?(\d\S+)\.tar\.gz
+
