@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 
 #############################################################################
 ##
@@ -22,12 +22,3 @@
 # along with Taurus.  If not, see <http://www.gnu.org/licenses/>.
 ##
 #############################################################################
-
-"""This module exposes QtUiTools module"""
-
-from taurus.core.util.log import info
-info("import of QtUiTools from taurus.qt is deprecated. "
-     "Use taurus.external.qt instead")
-del info
-
-from taurus.external.qt.QtUiTools import *
