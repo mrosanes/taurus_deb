@@ -1,14 +1,13 @@
-taurus (4.1.1-0~bpo9+0~alba+1~2.gbpdaf6d2) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @daf6d27563d4bb0a8b26abba823e3fd4bf66fc74 **
+taurus (4.1.1-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
   * local package
   * Update  watch file
   * New upstream version 4.1.1
   * Remove debian patch for ordereddict
   * Add qtpy dependency
+  * Require pint >=0.8
 
- -- cpascual <cpascual@cells.es>  Wed, 26 Jul 2017 11:31:31 +0000
+ -- cpascual <cpascual@cells.es>  Wed, 26 Jul 2017 20:11:54 +0000
 
 taurus (4.0.4a0+git20170301.1.8fe85+dfsg-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
