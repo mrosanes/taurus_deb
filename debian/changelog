@@ -1,3 +1,10 @@
+taurus (4.1.2a0+git20171030.1.fbcfb8-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  * local package
+  * New upstream version 4.1.2a0+git20171030.1.fbcfb8
+
+ -- cfalcon <cfalcon@cells.es>  Mon, 30 Oct 2017 13:02:09 +0000
+
 taurus (4.1.1-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
   * local package
