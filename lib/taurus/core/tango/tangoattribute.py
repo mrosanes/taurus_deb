@@ -90,10 +90,8 @@ class TangoAttrValue(TaurusAttrValue):
         if self._attrRef is None:
             return
 
-        numerical = (PyTango.is_numerical_type(self._attrRef._tango_data_type,
-                                              inc_array=True) or
-                     p.type == PyTango.CmdArgType.DevUChar
-                     )
+        numerical = PyTango.is_numerical_type(self._attrRef._tango_data_type,
+                                              inc_array=True)
 
         if p.has_failed:
             self.error = PyTango.DevFailed(*p.get_err_stack())
@@ -289,7 +287,8 @@ class TangoAttribute(TaurusAttribute):
 
         # subscribe to configuration events (unsubscription done at cleanup)
         self.__cfg_evt_id = None
-        self._subscribeConfEvents()
+        if self.factory().is_tango_subscribe_enabled():
+            self._subscribeConfEvents()
 
     def cleanUp(self):
         self.trace("[TangoAttribute] cleanUp")
@@ -315,10 +314,6 @@ class TangoAttribute(TaurusAttribute):
     #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
     # PyTango connection
     #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-
-    def isNumeric(self, inc_array=False):
-        tgtype = self._tango_data_type
-        return PyTango.is_numerical_type(tgtype, inc_array=inc_array)
 
     def isInteger(self, inc_array=False):
         tgtype = self._tango_data_type
@@ -588,6 +583,9 @@ class TangoAttribute(TaurusAttribute):
 
     def isUsingEvents(self):
         return self.__subscription_state == SubscriptionState.Subscribed
+    
+    def getSubscriptionState(self):
+        return self.__subscription_state    
 
     def _process_event_exception(self, ex):
         pass
@@ -595,6 +593,11 @@ class TangoAttribute(TaurusAttribute):
     def _subscribeEvents(self):
         """ Enable subscription to the attribute events. If change events are
             not supported polling is activated """
+            
+        if self.__chg_evt_id is not None:
+            self.warning("chg events already subscribed (id=%s)"
+                       %self.__chg_evt_id)
+            return
 
         if self.__dev_hw_obj is None:
             dev = self.getParentObj()
@@ -606,26 +609,33 @@ class TangoAttribute(TaurusAttribute):
                 self.debug("failed to subscribe to chg events: HW is None")
                 return
 
-        self.__subscription_event = threading.Event()
-        attr_name = self.getSimpleName()
+        if not self.factory().is_tango_subscribe_enabled():
+            self._activatePolling()
+            return
 
         try:
             self.__subscription_state = SubscriptionState.Subscribing
-            self.__chg_evt_id = self.__dev_hw_obj.subscribe_event(
-                attr_name, PyTango.EventType.CHANGE_EVENT,
-                self, [])  # connects to self.push_event callback
-
+            self._call_dev_hw_subscribe_event(False)
         except:
             self.__subscription_state = SubscriptionState.PendingSubscribe
             self._activatePolling()
-            self.__chg_evt_id = self.__dev_hw_obj.subscribe_event(
+            self._call_dev_hw_subscribe_event(True)
+                
+    def _call_dev_hw_subscribe_event(self, stateless=True):
+        """ Executes event subscription on parent TangoDevice objectName
+        """
+        attr_name = self.getSimpleName()
+        self.__chg_evt_id = self.__dev_hw_obj.subscribe_event(
                 attr_name, PyTango.EventType.CHANGE_EVENT,
-                self, [], True)  # connects to self.push_event callback
-
+                self, [], stateless) # connects to self.push_event callback
+        
+        return self.__chg_evt_id
+                
     def _unsubscribeEvents(self):
         # Careful in this method: This is intended to be executed in the cleanUp
         # so we should not access external objects from the factory, like the
         # parent object
+        
         if self.__dev_hw_obj is not None and self.__chg_evt_id is not None:
             self.trace("Unsubscribing to change events (ID=%d)",
                        self.__chg_evt_id)
@@ -646,6 +656,12 @@ class TangoAttribute(TaurusAttribute):
     def _subscribeConfEvents(self):
         """ Enable subscription to the attribute configuration events."""
         self.trace("Subscribing to configuration events...")
+
+        if self.__cfg_evt_id is not None:
+            self.warning("cfg events already subscribed (id=%s)"
+                       %self.__cfg_evt_id)
+            return
+        
         if self.__dev_hw_obj is None:
             dev = self.getParentObj()
             if dev is None:
@@ -681,7 +697,8 @@ class TangoAttribute(TaurusAttribute):
         # Careful in this method: This is intended to be executed in the cleanUp
         # so we should not access external objects from the factory, like the
         # parent object
-        if self.__cfg_evt_id and not self.__dev_hw_obj is None:
+        
+        if self.__cfg_evt_id is not None and self.__dev_hw_obj is not None:
             self.trace("Unsubscribing to configuration events (ID=%s)",
                        str(self.__cfg_evt_id))
             try:
@@ -905,7 +922,11 @@ class TangoAttribute(TaurusAttribute):
             ###############################################################
             # changed in taurus4: range, alarm and warning now return
             # quantities if appropriate
-            units = self._unit_from_tango(i.unit)
+            if self.isNumeric():
+                units = self._unit_from_tango(i.unit)
+            else:
+                units = UR.parse_units(None)
+
             if PyTango.is_numerical_type(i.data_type, inc_array=True):
                 Q_ = partial(quantity_from_tango_str, units=units,
                              dtype=i.data_type)
