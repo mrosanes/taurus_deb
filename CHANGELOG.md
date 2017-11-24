@@ -18,6 +18,9 @@ develop branch) won't be reflected in this file.
 - Option to ignore outdated Tango events (#559)
 - Travis-built docs (not yet replacing the RTD ones) (#572)
 - TaurusLed now supports non-boolean attributes (#617)
+- Support for arbitrary bgRole in labels (#629)
+- `--import-ascii` option in `taurusplot` launcher (#632)
+- `ChangeState` command in TangoSchemeTest DS (#628)
 
 ### Changed
 - taurus.qt widgets can now be used without installing PyTango (#590)
@@ -34,7 +37,10 @@ develop branch) won't be reflected in this file.
 - TaurusTrend2DDialog not usable from designer (#597)
 - TaurusLockButton icons (#598)
 - Exception in TaurusCommandForm (#608)
-- Exception in TaurusGrid (#609)
+- Taurus4 regressions in:
+  - QComboBox (#623)
+  - TaurusTrend (#618)
+  - TaurusGrid (#609)
 - [Many other issues](https://github.com/taurus-org/taurus/issues?utf8=%E2%9C%93&q=milestone%3AJan18%20label%3Abug%20)
 
 ### Removed
@@ -101,7 +107,7 @@ For a full log of commits since Jul16, run (in your git repo):
 `git log 4.0.1..4.0.3` 
 
 ### Added
-- Generic Attribute, Device and  Authority getters in TaurusFactory`
+- Generic Attribute, Device and  Authority getters in TaurusFactory
 - spyder >=3 support (#343)
 - bumpversion support (for maintainers) (#347)
 - Contribution policy explicited in CONTRIBUTING.md
@@ -127,7 +133,7 @@ For a full log of commits since Jul16, run (in your git repo):
     - Macrolistener (affects sardana) (#373)
     - Synoptics (#363)
     - TaurusValueLineEdit (#265)
-    - taurusgui.macrolistener` (#260)
+    - taurusgui.macrolistener (#260)
     - TaurusEditor (#343)
 - Bug causing high CPU usage in TaurusForms (#247)
 - Deprecation warnings in `TaurusWheelEdit` (#337)
