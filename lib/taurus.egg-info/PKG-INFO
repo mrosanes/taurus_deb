@@ -1,12 +1,13 @@
 Metadata-Version: 1.1
 Name: taurus
-Version: 4.2.0a0
+Version: 4.3.0a0
 Summary: A framework for scientific/industrial CLIs and GUIs
 Home-page: http://www.taurus-scada.org
 Author: Taurus Community
 Author-email: tauruslib-devel@lists.sourceforge.net
 License: LGPL
 Download-URL: http://pypi.python.org/packages/source/t/taurus
+Description-Content-Type: UNKNOWN
 Description: Taurus is a python framework for control and data
         acquisition CLIs and GUIs in scientific/industrial environments.
         It supports multiple control systems or data sources: Tango, EPICS,...
