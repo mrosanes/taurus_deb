@@ -16,92 +16,92 @@ Files: lib/taurus/qt/qtcore/util/emitter.py
 Copyright: © 2012, CELLS / ALBA Synchrotron, Bellaterra, Spain
 License: GPL-3+
 
-Files: lib/taurus/qt/qtgui/resource/external/class.png
-       lib/taurus/qt/qtgui/resource/external/function.png
-       lib/taurus/qt/qtgui/resource/external/ipython.png
-       lib/taurus/qt/qtgui/resource/external/python-module.png
+Files: lib/taurus/qt/qtgui/icon/external/class.png
+       lib/taurus/qt/qtgui/icon/external/function.png
+       lib/taurus/qt/qtgui/icon/external/ipython.png
+       lib/taurus/qt/qtgui/icon/external/python-module.png
 Copyright: © 2009-2011 Pierre Raybaut <pierre.raybaut@gmail.com>
 License: Expat
 
-Files: lib/taurus/qt/qtgui/resource/external/python.png
-       lib/taurus/qt/qtgui/resource/external/python-console.png
-       lib/taurus/qt/qtgui/resource/external/python-file.png
-       lib/taurus/qt/qtgui/resource/external/python-package.png
-       lib/taurus/qt/qtgui/resource/external/pythonw-console.png
+Files: lib/taurus/qt/qtgui/icon/external/python.png
+       lib/taurus/qt/qtgui/icon/external/python-console.png
+       lib/taurus/qt/qtgui/icon/external/python-file.png
+       lib/taurus/qt/qtgui/icon/external/python-package.png
+       lib/taurus/qt/qtgui/icon/external/pythonw-console.png
 Copyright: Guido van Rossum <guido@cwi.nl> and others
 License: PSF
 
-Files: lib/taurus/qt/qtgui/resource/external/tango.png
-       lib/taurus/qt/qtgui/resource/external/jive/*
+Files: lib/taurus/qt/qtgui/icon/external/tango.png
+       lib/taurus/qt/qtgui/icon/external/jive/*
 Copyright: Tango-Controls project
 License: LGPL-3+
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/color-fill.svg
+Files: lib/taurus/qt/qtgui/icon/extra-icons/color-fill.svg
 Copyright: Open Clip Art Library
 License: CC-BY-SA or LGPL-2.1
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/lock_locked.svg
- lib/taurus/qt/qtgui/resource/extra-icons/lock_locked_unpreviledged.svg
- lib/taurus/qt/qtgui/resource/extra-icons/lock_unknown.svg
- lib/taurus/qt/qtgui/resource/extra-icons/lock_unlocked.svg
+Files: lib/taurus/qt/qtgui/icon/extra-icons/lock_locked.svg
+ lib/taurus/qt/qtgui/icon/extra-icons/lock_locked_unpreviledged.svg
+ lib/taurus/qt/qtgui/icon/extra-icons/lock_unknown.svg
+ lib/taurus/qt/qtgui/icon/extra-icons/lock_unlocked.svg
 Copyright: Beate Kaspar
 License: CC-BY-SA
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/actions/collapse-all.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/go-backward.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/go-forward.svg
+Files: lib/taurus/qt/qtgui/icon/extra-icons/actions/collapse-all.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/go-backward.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/go-forward.svg
 Copyright: Jakub Steiner
 License: PublicDomain
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/actions/media-seek-backward-green.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media-seek-forward-green.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/stop.svg
+Files: lib/taurus/qt/qtgui/icon/extra-icons/actions/media-seek-backward-green.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media-seek-forward-green.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/stop.svg
 Copyright: Lapo Calamandrei
 License: PublicDomain
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/actions/media_playback_backward.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_playback_pause.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_playback_start.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_playback_stop_green.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_playback_stop.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_seek_backward.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_seek_forward.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_skip_backward.svg
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/media_skip_forward.svg
+Files: lib/taurus/qt/qtgui/icon/extra-icons/actions/media_playback_backward.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_playback_pause.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_playback_start.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_playback_stop_green.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_playback_stop.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_seek_backward.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_seek_forward.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_skip_backward.svg
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/media_skip_forward.svg
 Copyright: Not relevant
 License: PublicDomain
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/titlebar_*.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/wheeledit.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/tau.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/taurus.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/extra_motor.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/circular_gauge.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/groupwidget.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/horizontal_linear_gauge.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/vertical_linear_gauge.png
-       lib/taurus/qt/qtgui/resource/extra-icons/designer/state.png
-       lib/taurus/qt/qtgui/resource/extra-icons/leds/images*/*.png
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/expand-*.png
-       lib/taurus/qt/qtgui/resource/extra-icons/actions/collapse-*.png
+Files: lib/taurus/qt/qtgui/icon/extra-icons/titlebar_*.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/wheeledit.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/tau.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/taurus.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/extra_motor.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/circular_gauge.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/groupwidget.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/horizontal_linear_gauge.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/vertical_linear_gauge.png
+       lib/taurus/qt/qtgui/icon/extra-icons/designer/state.png
+       lib/taurus/qt/qtgui/icon/extra-icons/leds/images*/*.png
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/expand-*.png
+       lib/taurus/qt/qtgui/icon/extra-icons/actions/collapse-*.png
 Copyright: © 2010, 2011, CELLS / ALBA Synchrotron, Bellaterra, Spain
 License: CC-BY
 
-Files: lib/taurus/qt/qtgui/resource/extra-icons/designer/*.png
+Files: lib/taurus/qt/qtgui/icon/extra-icons/designer/*.png
 Copyright: © 2008-2009 Nokia Corporation and/or its subsidiary(-ies).
            © 1994-2008 Trolltech ASA.
 License: LGPL-2.1
 
-Files: lib/taurus/qt/qtgui/resource/large/snapshot/*.png
-       lib/taurus/qt/qtgui/resource/extra-icons/arrow01.svg
+Files: lib/taurus/qt/qtgui/icon/large/snapshot/*.png
+       lib/taurus/qt/qtgui/icon/extra-icons/arrow01.svg
 Copyright: © 2012, CELLS / ALBA Synchrotron, Bellaterra, Spain
 License: CC-BY-SA
 
-Files: lib/taurus/qt/qtgui/resource/rrze-icons/*
+Files: lib/taurus/qt/qtgui/icon/rrze-icons/*
 Copyright: Beate Kaspar, Hendrik Eggers, Martin Fischer, Frank Tröger, Florian Löffler
 License: CC-BY-SA
 
-Files: lib/taurus/qt/qtgui/resource/tango-icons/*
+Files: lib/taurus/qt/qtgui/icon/tango-icons/*
 Copyright: Not relevant
 License: PublicDomain
 
