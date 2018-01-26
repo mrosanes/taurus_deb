@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/jive">
+        <file alias="server.png">external/jive/server.png</file>
+        <file alias="class.png">external/jive/class.png</file>
+        <file alias="device.png">external/jive/device.png</file>
+    </qresource>
+</RCC>

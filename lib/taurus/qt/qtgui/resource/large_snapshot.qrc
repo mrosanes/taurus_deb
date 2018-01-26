@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/snapshot">
+        <file alias="TaurusNeXusBrowser.png">large/snapshot/TaurusNeXusBrowser.png</file>
+        <file alias="TaurusPlot.png">large/snapshot/TaurusPlot.png</file>
+        <file alias="TaurusArrayEditor.png">large/snapshot/TaurusArrayEditor.png</file>
+        <file alias="TaurusImageDialog.png">large/snapshot/TaurusImageDialog.png</file>
+        <file alias="SardanaEditor.png">large/snapshot/SardanaEditor.png</file>
+        <file alias="TaurusShell.png">large/snapshot/TaurusShell.png</file>
+        <file alias="TaurusDevicePanel.png">large/snapshot/TaurusDevicePanel.png</file>
+        <file alias="TaurusDbTreeWidget.png">large/snapshot/TaurusDbTreeWidget.png</file>
+        <file alias="TaurusTrend2DDialog.png">large/snapshot/TaurusTrend2DDialog.png</file>
+        <file alias="TaurusQubDataImageDisplay.png">large/snapshot/TaurusQubDataImageDisplay.png</file>
+        <file alias="TaurusJDrawSynopticsView.png">large/snapshot/TaurusJDrawSynopticsView.png</file>
+        <file alias="TaurusTrend.png">large/snapshot/TaurusTrend.png</file>
+        <file alias="TaurusForm.png">large/snapshot/TaurusForm.png</file>
+    </qresource>
+</RCC>
