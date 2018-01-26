@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/devices">
+        <file alias="camera-photo.svg">tango-icons/devices/camera-photo.svg</file>
+        <file alias="input-keyboard.svg">tango-icons/devices/input-keyboard.svg</file>
+        <file alias="multimedia-player.svg">tango-icons/devices/multimedia-player.svg</file>
+        <file alias="network-wireless.svg">tango-icons/devices/network-wireless.svg</file>
+        <file alias="drive-optical.svg">tango-icons/devices/drive-optical.svg</file>
+        <file alias="media-floppy.svg">tango-icons/devices/media-floppy.svg</file>
+        <file alias="printer.svg">tango-icons/devices/printer.svg</file>
+        <file alias="drive-harddisk.svg">tango-icons/devices/drive-harddisk.svg</file>
+        <file alias="network-wired.svg">tango-icons/devices/network-wired.svg</file>
+        <file alias="battery.svg">tango-icons/devices/battery.svg</file>
+        <file alias="input-mouse.svg">tango-icons/devices/input-mouse.svg</file>
+        <file alias="drive-removable-media.svg">tango-icons/devices/drive-removable-media.svg</file>
+        <file alias="computer.svg">tango-icons/devices/computer.svg</file>
+        <file alias="video-display.svg">tango-icons/devices/video-display.svg</file>
+        <file alias="media-optical.svg">tango-icons/devices/media-optical.svg</file>
+        <file alias="audio-input-microphone.svg">tango-icons/devices/audio-input-microphone.svg</file>
+        <file alias="input-gaming.svg">tango-icons/devices/input-gaming.svg</file>
+        <file alias="audio-card.svg">tango-icons/devices/audio-card.svg</file>
+        <file alias="camera-video.svg">tango-icons/devices/camera-video.svg</file>
+        <file alias="media-flash.svg">tango-icons/devices/media-flash.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/leds/images48">
+        <file alias="ledgreenoff.png">extra-icons/leds/images48/ledgreenoff.png</file>
+        <file alias="ledorange.png">extra-icons/leds/images48/ledorange.png</file>
+        <file alias="ledblueoff.png">extra-icons/leds/images48/ledblueoff.png</file>
+        <file alias="ledredoff.png">extra-icons/leds/images48/ledredoff.png</file>
+        <file alias="ledorangeoff.png">extra-icons/leds/images48/ledorangeoff.png</file>
+        <file alias="ledyellowoff.png">extra-icons/leds/images48/ledyellowoff.png</file>
+        <file alias="ledyellow.png">extra-icons/leds/images48/ledyellow.png</file>
+        <file alias="ledblue.png">extra-icons/leds/images48/ledblue.png</file>
+        <file alias="ledred.png">extra-icons/leds/images48/ledred.png</file>
+        <file alias="ledgreen.png">extra-icons/leds/images48/ledgreen.png</file>
+    </qresource>
+</RCC>

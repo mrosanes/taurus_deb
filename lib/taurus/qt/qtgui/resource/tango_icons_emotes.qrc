@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/emotes">
+        <file alias="face-glasses.svg">tango-icons/emotes/face-glasses.svg</file>
+        <file alias="face-plain.svg">tango-icons/emotes/face-plain.svg</file>
+        <file alias="face-monkey.svg">tango-icons/emotes/face-monkey.svg</file>
+        <file alias="face-devilish.svg">tango-icons/emotes/face-devilish.svg</file>
+        <file alias="face-grin.svg">tango-icons/emotes/face-grin.svg</file>
+        <file alias="face-sad.svg">tango-icons/emotes/face-sad.svg</file>
+        <file alias="face-wink.svg">tango-icons/emotes/face-wink.svg</file>
+        <file alias="face-kiss.svg">tango-icons/emotes/face-kiss.svg</file>
+        <file alias="face-cool.svg">tango-icons/emotes/face-cool.svg</file>
+        <file alias="face-crying.svg">tango-icons/emotes/face-crying.svg</file>
+        <file alias="face-smile-big.svg">tango-icons/emotes/face-smile-big.svg</file>
+        <file alias="face-surprise.svg">tango-icons/emotes/face-surprise.svg</file>
+        <file alias="face-angel.svg">tango-icons/emotes/face-angel.svg</file>
+        <file alias="face-smile.svg">tango-icons/emotes/face-smile.svg</file>
+    </qresource>
+</RCC>

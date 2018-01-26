@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/status">
+        <file alias="hourglass.svg">rrze-icons/status/hourglass.svg</file>
+        <file alias="important.svg">rrze-icons/status/important.svg</file>
+        <file alias="flag-yellow.svg">rrze-icons/status/flag-yellow.svg</file>
+        <file alias="synchronized.svg">rrze-icons/status/synchronized.svg</file>
+        <file alias="warning.svg">rrze-icons/status/warning.svg</file>
+        <file alias="awaiting-plus.svg">rrze-icons/status/awaiting-plus.svg</file>
+        <file alias="binational.svg">rrze-icons/status/binational.svg</file>
+        <file alias="available.svg">rrze-icons/status/available.svg</file>
+        <file alias="true-orange.svg">rrze-icons/status/true-orange.svg</file>
+        <file alias="expired.svg">rrze-icons/status/expired.svg</file>
+        <file alias="not-available.svg">rrze-icons/status/not-available.svg</file>
+        <file alias="flag-yellow-clock.svg">rrze-icons/status/flag-yellow-clock.svg</file>
+        <file alias="male.svg">rrze-icons/status/male.svg</file>
+        <file alias="temporarily-not-available.svg">rrze-icons/status/temporarily-not-available.svg</file>
+        <file alias="maintenance-time.svg">rrze-icons/status/maintenance-time.svg</file>
+        <file alias="error.svg">rrze-icons/status/error.svg</file>
+        <file alias="true.svg">rrze-icons/status/true.svg</file>
+        <file alias="flag-green-mail.svg">rrze-icons/status/flag-green-mail.svg</file>
+        <file alias="flag-red.svg">rrze-icons/status/flag-red.svg</file>
+        <file alias="female.svg">rrze-icons/status/female.svg</file>
+        <file alias="false.svg">rrze-icons/status/false.svg</file>
+        <file alias="flag-yellow-mail.svg">rrze-icons/status/flag-yellow-mail.svg</file>
+        <file alias="temporarily-not-available-clock.svg">rrze-icons/status/temporarily-not-available-clock.svg</file>
+        <file alias="not-known.svg">rrze-icons/status/not-known.svg</file>
+        <file alias="flag-green.svg">rrze-icons/status/flag-green.svg</file>
+        <file alias="awaiting.svg">rrze-icons/status/awaiting.svg</file>
+        <file alias="not-specified.svg">rrze-icons/status/not-specified.svg</file>
+        <file alias="exclamation-mark.svg">rrze-icons/status/exclamation-mark.svg</file>
+        <file alias="flag-green-clock.svg">rrze-icons/status/flag-green-clock.svg</file>
+        <file alias="not-synchronized.svg">rrze-icons/status/not-synchronized.svg</file>
+        <file alias="unlocked.svg">rrze-icons/status/unlocked.svg</file>
+        <file alias="flag-red-clock.svg">rrze-icons/status/flag-red-clock.svg</file>
+        <file alias="flag-red-mail.svg">rrze-icons/status/flag-red-mail.svg</file>
+    </qresource>
+</RCC>

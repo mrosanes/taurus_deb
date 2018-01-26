@@ -1,0 +1,14 @@
+<RCC>
+    <qresource>
+        <file alias="function.png">external/function.png</file>
+        <file alias="python-console.png">external/python-console.png</file>
+        <file alias="python.png">external/python.png</file>
+        <file alias="ipython.png">external/ipython.png</file>
+        <file alias="class.png">external/class.png</file>
+        <file alias="pythonw-console.png">external/pythonw-console.png</file>
+        <file alias="tango.png">external/tango.png</file>
+        <file alias="python-module.png">external/python-module.png</file>
+        <file alias="python-package.png">external/python-package.png</file>
+        <file alias="python-file.png">external/python-file.png</file>
+    </qresource>
+</RCC>

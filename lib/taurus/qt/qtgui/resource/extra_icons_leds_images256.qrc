@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/leds/images256">
+        <file alias="led_grenoble_on.png">extra-icons/leds/images256/led_grenoble_on.png</file>
+        <file alias="led_yellow_off.png">extra-icons/leds/images256/led_yellow_off.png</file>
+        <file alias="led_red_off.png">extra-icons/leds/images256/led_red_off.png</file>
+        <file alias="led_yellow_on.png">extra-icons/leds/images256/led_yellow_on.png</file>
+        <file alias="led_black_off.png">extra-icons/leds/images256/led_black_off.png</file>
+        <file alias="led_red_on.png">extra-icons/leds/images256/led_red_on.png</file>
+        <file alias="led_grenoble_off.png">extra-icons/leds/images256/led_grenoble_off.png</file>
+        <file alias="led_orange_on.png">extra-icons/leds/images256/led_orange_on.png</file>
+        <file alias="led_black_on.png">extra-icons/leds/images256/led_black_on.png</file>
+        <file alias="led_magenta_on.png">extra-icons/leds/images256/led_magenta_on.png</file>
+        <file alias="led_white_on.png">extra-icons/leds/images256/led_white_on.png</file>
+        <file alias="led_blue_on.png">extra-icons/leds/images256/led_blue_on.png</file>
+        <file alias="led_off.png">extra-icons/leds/images256/led_off.png</file>
+        <file alias="led_magenta_off.png">extra-icons/leds/images256/led_magenta_off.png</file>
+        <file alias="led_green_off.png">extra-icons/leds/images256/led_green_off.png</file>
+        <file alias="led_white_off.png">extra-icons/leds/images256/led_white_off.png</file>
+        <file alias="led_green_on.png">extra-icons/leds/images256/led_green_on.png</file>
+        <file alias="led_blue_off.png">extra-icons/leds/images256/led_blue_off.png</file>
+        <file alias="led_orange_off.png">extra-icons/leds/images256/led_orange_off.png</file>
+    </qresource>
+</RCC>
