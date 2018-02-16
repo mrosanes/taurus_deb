@@ -1,18 +1,18 @@
 <RCC>
     <qresource>
-        <file alias="titlebar_undock_black.png">extra-icons/titlebar_undock_black.png</file>
-        <file alias="titlebar_close_white.png">extra-icons/titlebar_close_white.png</file>
-        <file alias="titlebar_close.png">extra-icons/titlebar_close.png</file>
-        <file alias="titlebar_close_black.png">extra-icons/titlebar_close_black.png</file>
-        <file alias="color-fill.svg">extra-icons/color-fill.svg</file>
-        <file alias="lock_unlocked.svg">extra-icons/lock_unlocked.svg</file>
-        <file alias="titlebar_close_gray.png">extra-icons/titlebar_close_gray.png</file>
         <file alias="arrow01.svg">extra-icons/arrow01.svg</file>
-        <file alias="titlebar_undock.png">extra-icons/titlebar_undock.png</file>
+        <file alias="color-fill.svg">extra-icons/color-fill.svg</file>
+        <file alias="lock_locked.svg">extra-icons/lock_locked.svg</file>
         <file alias="lock_locked_unpreviledged.svg">extra-icons/lock_locked_unpreviledged.svg</file>
         <file alias="lock_unknown.svg">extra-icons/lock_unknown.svg</file>
-        <file alias="lock_locked.svg">extra-icons/lock_locked.svg</file>
-        <file alias="titlebar_undock_white.png">extra-icons/titlebar_undock_white.png</file>
+        <file alias="lock_unlocked.svg">extra-icons/lock_unlocked.svg</file>
+        <file alias="titlebar_close.png">extra-icons/titlebar_close.png</file>
+        <file alias="titlebar_close_black.png">extra-icons/titlebar_close_black.png</file>
+        <file alias="titlebar_close_gray.png">extra-icons/titlebar_close_gray.png</file>
+        <file alias="titlebar_close_white.png">extra-icons/titlebar_close_white.png</file>
+        <file alias="titlebar_undock.png">extra-icons/titlebar_undock.png</file>
+        <file alias="titlebar_undock_black.png">extra-icons/titlebar_undock_black.png</file>
         <file alias="titlebar_undock_gray.png">extra-icons/titlebar_undock_gray.png</file>
+        <file alias="titlebar_undock_white.png">extra-icons/titlebar_undock_white.png</file>
     </qresource>
 </RCC>
