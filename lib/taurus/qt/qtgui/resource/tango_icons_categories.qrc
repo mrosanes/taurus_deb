@@ -1,16 +1,16 @@
 <RCC>
     <qresource prefix="/categories">
-        <file alias="applications-development.svg">tango-icons/categories/applications-development.svg</file>
-        <file alias="applications-other.svg">tango-icons/categories/applications-other.svg</file>
-        <file alias="preferences-desktop.svg">tango-icons/categories/preferences-desktop.svg</file>
-        <file alias="applications-games.svg">tango-icons/categories/applications-games.svg</file>
-        <file alias="preferences-desktop-peripherals.svg">tango-icons/categories/preferences-desktop-peripherals.svg</file>
-        <file alias="applications-office.svg">tango-icons/categories/applications-office.svg</file>
-        <file alias="applications-system.svg">tango-icons/categories/applications-system.svg</file>
-        <file alias="applications-graphics.svg">tango-icons/categories/applications-graphics.svg</file>
-        <file alias="applications-multimedia.svg">tango-icons/categories/applications-multimedia.svg</file>
-        <file alias="preferences-system.svg">tango-icons/categories/preferences-system.svg</file>
         <file alias="applications-accessories.svg">tango-icons/categories/applications-accessories.svg</file>
+        <file alias="applications-development.svg">tango-icons/categories/applications-development.svg</file>
+        <file alias="applications-games.svg">tango-icons/categories/applications-games.svg</file>
+        <file alias="applications-graphics.svg">tango-icons/categories/applications-graphics.svg</file>
         <file alias="applications-internet.svg">tango-icons/categories/applications-internet.svg</file>
+        <file alias="applications-multimedia.svg">tango-icons/categories/applications-multimedia.svg</file>
+        <file alias="applications-office.svg">tango-icons/categories/applications-office.svg</file>
+        <file alias="applications-other.svg">tango-icons/categories/applications-other.svg</file>
+        <file alias="applications-system.svg">tango-icons/categories/applications-system.svg</file>
+        <file alias="preferences-desktop-peripherals.svg">tango-icons/categories/preferences-desktop-peripherals.svg</file>
+        <file alias="preferences-desktop.svg">tango-icons/categories/preferences-desktop.svg</file>
+        <file alias="preferences-system.svg">tango-icons/categories/preferences-system.svg</file>
     </qresource>
 </RCC>

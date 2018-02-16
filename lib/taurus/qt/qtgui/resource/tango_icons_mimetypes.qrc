@@ -1,25 +1,25 @@
 <RCC>
     <qresource prefix="/mimetypes">
-        <file alias="x-office-presentation-template.svg">tango-icons/mimetypes/x-office-presentation-template.svg</file>
+        <file alias="application-certificate.svg">tango-icons/mimetypes/application-certificate.svg</file>
+        <file alias="application-x-executable.svg">tango-icons/mimetypes/application-x-executable.svg</file>
+        <file alias="audio-x-generic.svg">tango-icons/mimetypes/audio-x-generic.svg</file>
+        <file alias="font-x-generic.svg">tango-icons/mimetypes/font-x-generic.svg</file>
+        <file alias="image-x-generic.svg">tango-icons/mimetypes/image-x-generic.svg</file>
         <file alias="package-x-generic.svg">tango-icons/mimetypes/package-x-generic.svg</file>
+        <file alias="text-html.svg">tango-icons/mimetypes/text-html.svg</file>
         <file alias="text-x-generic-template.svg">tango-icons/mimetypes/text-x-generic-template.svg</file>
         <file alias="text-x-generic.svg">tango-icons/mimetypes/text-x-generic.svg</file>
-        <file alias="x-office-spreadsheet.svg">tango-icons/mimetypes/x-office-spreadsheet.svg</file>
-        <file alias="text-html.svg">tango-icons/mimetypes/text-html.svg</file>
-        <file alias="x-office-drawing.svg">tango-icons/mimetypes/x-office-drawing.svg</file>
-        <file alias="x-office-document.svg">tango-icons/mimetypes/x-office-document.svg</file>
-        <file alias="x-office-document-template.svg">tango-icons/mimetypes/x-office-document-template.svg</file>
-        <file alias="image-x-generic.svg">tango-icons/mimetypes/image-x-generic.svg</file>
-        <file alias="application-x-executable.svg">tango-icons/mimetypes/application-x-executable.svg</file>
-        <file alias="x-office-spreadsheet-template.svg">tango-icons/mimetypes/x-office-spreadsheet-template.svg</file>
-        <file alias="font-x-generic.svg">tango-icons/mimetypes/font-x-generic.svg</file>
-        <file alias="x-office-address-book.svg">tango-icons/mimetypes/x-office-address-book.svg</file>
-        <file alias="application-certificate.svg">tango-icons/mimetypes/application-certificate.svg</file>
-        <file alias="audio-x-generic.svg">tango-icons/mimetypes/audio-x-generic.svg</file>
-        <file alias="x-office-drawing-template.svg">tango-icons/mimetypes/x-office-drawing-template.svg</file>
-        <file alias="x-office-calendar.svg">tango-icons/mimetypes/x-office-calendar.svg</file>
         <file alias="text-x-script.svg">tango-icons/mimetypes/text-x-script.svg</file>
-        <file alias="x-office-presentation.svg">tango-icons/mimetypes/x-office-presentation.svg</file>
         <file alias="video-x-generic.svg">tango-icons/mimetypes/video-x-generic.svg</file>
+        <file alias="x-office-address-book.svg">tango-icons/mimetypes/x-office-address-book.svg</file>
+        <file alias="x-office-calendar.svg">tango-icons/mimetypes/x-office-calendar.svg</file>
+        <file alias="x-office-document-template.svg">tango-icons/mimetypes/x-office-document-template.svg</file>
+        <file alias="x-office-document.svg">tango-icons/mimetypes/x-office-document.svg</file>
+        <file alias="x-office-drawing-template.svg">tango-icons/mimetypes/x-office-drawing-template.svg</file>
+        <file alias="x-office-drawing.svg">tango-icons/mimetypes/x-office-drawing.svg</file>
+        <file alias="x-office-presentation-template.svg">tango-icons/mimetypes/x-office-presentation-template.svg</file>
+        <file alias="x-office-presentation.svg">tango-icons/mimetypes/x-office-presentation.svg</file>
+        <file alias="x-office-spreadsheet-template.svg">tango-icons/mimetypes/x-office-spreadsheet-template.svg</file>
+        <file alias="x-office-spreadsheet.svg">tango-icons/mimetypes/x-office-spreadsheet.svg</file>
     </qresource>
 </RCC>
