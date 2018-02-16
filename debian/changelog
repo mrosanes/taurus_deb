@@ -1,3 +1,10 @@
+taurus (4.3.0a0+git20180216.1.c80da9-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  * local package
+  * New upstream version 4.3.0a0+git20180216.1.c80da9
+
+ -- zreszela <zreszela@cells.es>  Fri, 16 Feb 2018 15:33:28 +0000
+
 taurus (4.3.0a0+git20180126.1.3cd8ac-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
   [ cpascual ]
