@@ -1,24 +1,24 @@
 <RCC>
     <qresource prefix="/actions">
-        <file alias="collapse-all.svg">extra-icons/actions/collapse-all.svg</file>
-        <file alias="collapse-selection.png">extra-icons/actions/collapse-selection.png</file>
         <file alias="collapse.png">extra-icons/actions/collapse.png</file>
-        <file alias="expand-all.svg">extra-icons/actions/expand-all.svg</file>
-        <file alias="expand-selection.png">extra-icons/actions/expand-selection.png</file>
-        <file alias="expand.png">extra-icons/actions/expand.png</file>
+        <file alias="stop.svg">extra-icons/actions/stop.svg</file>
         <file alias="go-backward.svg">extra-icons/actions/go-backward.svg</file>
-        <file alias="go-forward.svg">extra-icons/actions/go-forward.svg</file>
-        <file alias="media-seek-backward-green.svg">extra-icons/actions/media-seek-backward-green.svg</file>
-        <file alias="media-seek-forward-green.svg">extra-icons/actions/media-seek-forward-green.svg</file>
+        <file alias="expand.png">extra-icons/actions/expand.png</file>
+        <file alias="media_skip_backward.svg">extra-icons/actions/media_skip_backward.svg</file>
         <file alias="media_playback_backward.svg">extra-icons/actions/media_playback_backward.svg</file>
-        <file alias="media_playback_pause.svg">extra-icons/actions/media_playback_pause.svg</file>
+        <file alias="media-seek-backward-green.svg">extra-icons/actions/media-seek-backward-green.svg</file>
         <file alias="media_playback_start.svg">extra-icons/actions/media_playback_start.svg</file>
+        <file alias="expand-all.svg">extra-icons/actions/expand-all.svg</file>
+        <file alias="media-seek-forward-green.svg">extra-icons/actions/media-seek-forward-green.svg</file>
+        <file alias="go-forward.svg">extra-icons/actions/go-forward.svg</file>
+        <file alias="media_playback_pause.svg">extra-icons/actions/media_playback_pause.svg</file>
+        <file alias="expand-selection.png">extra-icons/actions/expand-selection.png</file>
+        <file alias="collapse-selection.png">extra-icons/actions/collapse-selection.png</file>
+        <file alias="collapse-all.svg">extra-icons/actions/collapse-all.svg</file>
         <file alias="media_playback_stop.svg">extra-icons/actions/media_playback_stop.svg</file>
         <file alias="media_playback_stop_green.svg">extra-icons/actions/media_playback_stop_green.svg</file>
         <file alias="media_seek_backward.svg">extra-icons/actions/media_seek_backward.svg</file>
-        <file alias="media_seek_forward.svg">extra-icons/actions/media_seek_forward.svg</file>
-        <file alias="media_skip_backward.svg">extra-icons/actions/media_skip_backward.svg</file>
         <file alias="media_skip_forward.svg">extra-icons/actions/media_skip_forward.svg</file>
-        <file alias="stop.svg">extra-icons/actions/stop.svg</file>
+        <file alias="media_seek_forward.svg">extra-icons/actions/media_seek_forward.svg</file>
     </qresource>
 </RCC>

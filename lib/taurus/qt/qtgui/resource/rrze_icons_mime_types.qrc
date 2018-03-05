@@ -1,19 +1,19 @@
 <RCC>
     <qresource prefix="/mime-types">
-        <file alias="audio-mp3.svg">rrze-icons/mime-types/audio-mp3.svg</file>
-        <file alias="audio-mp4.svg">rrze-icons/mime-types/audio-mp4.svg</file>
-        <file alias="document-pdf.svg">rrze-icons/mime-types/document-pdf.svg</file>
-        <file alias="media-audio-itunes-u.svg">rrze-icons/mime-types/media-audio-itunes-u.svg</file>
+        <file alias="office-ms-excel.svg">rrze-icons/mime-types/office-ms-excel.svg</file>
         <file alias="media-audio-itunes.svg">rrze-icons/mime-types/media-audio-itunes.svg</file>
-        <file alias="media-audio-visual-slide.svg">rrze-icons/mime-types/media-audio-visual-slide.svg</file>
-        <file alias="media-movie-audio.svg">rrze-icons/mime-types/media-movie-audio.svg</file>
+        <file alias="media-audio-itunes-u.svg">rrze-icons/mime-types/media-audio-itunes-u.svg</file>
+        <file alias="document-pdf.svg">rrze-icons/mime-types/document-pdf.svg</file>
+        <file alias="audio-mp3.svg">rrze-icons/mime-types/audio-mp3.svg</file>
+        <file alias="text-csv-text.svg">rrze-icons/mime-types/text-csv-text.svg</file>
+        <file alias="audio-mp4.svg">rrze-icons/mime-types/audio-mp4.svg</file>
+        <file alias="media-video-film.svg">rrze-icons/mime-types/media-video-film.svg</file>
+        <file alias="video-mov.svg">rrze-icons/mime-types/video-mov.svg</file>
         <file alias="media-movie.svg">rrze-icons/mime-types/media-movie.svg</file>
         <file alias="media-slide-audio.svg">rrze-icons/mime-types/media-slide-audio.svg</file>
-        <file alias="media-video-film.svg">rrze-icons/mime-types/media-video-film.svg</file>
-        <file alias="office-ms-excel.svg">rrze-icons/mime-types/office-ms-excel.svg</file>
         <file alias="office-ms-word.svg">rrze-icons/mime-types/office-ms-word.svg</file>
-        <file alias="text-csv-text.svg">rrze-icons/mime-types/text-csv-text.svg</file>
+        <file alias="media-audio-visual-slide.svg">rrze-icons/mime-types/media-audio-visual-slide.svg</file>
+        <file alias="media-movie-audio.svg">rrze-icons/mime-types/media-movie-audio.svg</file>
         <file alias="video-m4v.svg">rrze-icons/mime-types/video-m4v.svg</file>
-        <file alias="video-mov.svg">rrze-icons/mime-types/video-mov.svg</file>
     </qresource>
 </RCC>
