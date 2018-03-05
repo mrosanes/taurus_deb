@@ -1,11 +1,11 @@
 <RCC>
     <qresource prefix="/emblems">
         <file alias="emblem-favorite.svg">tango-icons/emblems/emblem-favorite.svg</file>
-        <file alias="emblem-important.svg">tango-icons/emblems/emblem-important.svg</file>
-        <file alias="emblem-photos.svg">tango-icons/emblems/emblem-photos.svg</file>
-        <file alias="emblem-readonly.svg">tango-icons/emblems/emblem-readonly.svg</file>
         <file alias="emblem-symbolic-link.svg">tango-icons/emblems/emblem-symbolic-link.svg</file>
         <file alias="emblem-system.svg">tango-icons/emblems/emblem-system.svg</file>
         <file alias="emblem-unreadable.svg">tango-icons/emblems/emblem-unreadable.svg</file>
+        <file alias="emblem-readonly.svg">tango-icons/emblems/emblem-readonly.svg</file>
+        <file alias="emblem-important.svg">tango-icons/emblems/emblem-important.svg</file>
+        <file alias="emblem-photos.svg">tango-icons/emblems/emblem-photos.svg</file>
     </qresource>
 </RCC>

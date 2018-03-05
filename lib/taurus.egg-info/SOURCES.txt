@@ -1,4 +1,10 @@
+.bumpversion.cfg
+.gitattributes
+.gitignore
+.mailmap
+.travis.yml
 CHANGELOG.md
+CONTRIBUTING.md
 LICENSE.txt
 MANIFEST.in
 README.rst
@@ -6,6 +12,8 @@ setup.py
 taurus.bmp
 taurus.png
 taurus.svg
+ci/appveyor.yml
+ci/win-test.bat
 doc/api_AllClasses.rst
 doc/api_class.rst
 doc/api_class_simple.rst
@@ -1979,3 +1987,5 @@ lib/taurus/test/resource.py
 lib/taurus/test/skip.py
 lib/taurus/test/test_import.py
 lib/taurus/test/testsuite.py
+scripts/taurusdoc
+scripts/taurusremotelogmonitor

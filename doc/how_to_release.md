@@ -8,19 +8,21 @@ of stuff that should be manually tested.
 
 1. During all the development, use the Milestones to keep track of the intended release for each issue
 2. Previous to the release deadline, re-check the open issues/PR and update the assignation issues/PR to the release milestone. Request feedback from the devel community.
-3. Work to close all the PR/issues remaining open in the milestone. This can be either done in develop or in a release branch called `release-XXX` (where `XXX` is the milestone name, e.g. `Jul17`). If a release branch is used, `develop` is freed to continue with integrations that may not be suitable for this release. On the other hand, it adds a bit more work  because the release-related PRs (which are done against the `release-XXX` branch), may need to be also merged to develop. Note: the `release-XXX` branch *can* live in the taurus-org repo or on a personal fork (in which case you should do step 4.4 and **now** to allow other integrators to push directly to it).
+3. Work to close all the PR/issues remaining open in the milestone. This can be either done in develop or in a release branch called `release-XXX` (where `XXX` is the milestone name, e.g. `Jul17`). If a release branch is used, `develop` is freed to continue with integrations that may not be suitable for this release. On the other hand, it adds a bit more work  because the release-related PRs (which are done against the `release-XXX` branch), may need to be also merged to develop. Note: the `release-XXX` branch *can* live in the taurus-org repo or on a personal fork (in which case you should do step 4.iv **now** to allow other integrators to push directly to it).
 4. Create the release branch if it was not done already in the previous step and:
-4.1. Review and update the CHANGELOG.md if necessary. See [this](http://keepachangelog.com)
-4.2. Bump version using `bumpversion <major|minor|patch> && bumpversion release`  (use [semver](http://semver.org/) criteria to choose amongst `major`, `minor` or `patch`
-4.3. Update man pages:
-       `cd <taurus>/doc`
-       `./makeman`
-       `git add man`
-       `git commit -m "Update man pages"`
-4.4. Create a PR to merge the `release-XXX` against the **`master`** branch of the taurus-org repo
+    1. Review and update the CHANGELOG.md if necessary. See [this](http://keepachangelog.com)
+    2. Bump version using `bumpversion <major|minor|patch> && bumpversion release`  (use [semver](http://semver.org/) criteria to choose amongst `major`, `minor` or `patch`
+    3. Update man pages:
+         ```
+         cd <taurus>/doc
+         ./makeman
+         git add man
+         git commit -m "Update man pages"
+         ```
+    4. Create a PR to merge the `release-XXX` against the **`master`** branch of the taurus-org repo
 5. Request reviews in the PR from at least one integrator from each participating institute. The master branch is protected, so the reviews need to be cleared (or dismissed with an explanation) before the release can be merged.
 6. Perform manual tests (see checklist below). You may use the CI artifacts (e.g., from appveyor) and post the results in the comments of the PR.
-7. Once all reviews a cleared, merge the PR and tag in master
+7. Once all reviews a cleared, update the date of the release in the CHANGELOG.md, merge the PR and tag in master
 8. Merge also the  `release-XXX` branch into develop, and bump the version of develop with `bumpversion patch`
 
 
@@ -90,11 +92,12 @@ Hint: this list can be used as a template to be copy-pasted on a release PR
 ### Tauruscurve & taurustrend1d
 (unused and to be deprecated, you may test but **do not worry too much if they fail**)
 
-- [ ] Execute: `tauruscurve --demo` and `taurustrend1d "eval:Q(rand(),'mm')"`
+- [ ] Execute: `tauruscurve --demo`
 - [ ] Change size
 - [ ] Move curve with mouse
 - [ ] Resize curve with mouse
 - [ ] Test some option of the menu with mouse.
+- [ ] Execute: `taurustrend1d "eval:Q(rand(),'mm')"` and test it in the same way
 
 ### taurusdesigner
 - [ ] Check that taurusdesigner is correctly opened and taurus widgets are present in the catalog
@@ -104,7 +107,7 @@ Hint: this list can be used as a template to be copy-pasted on a release PR
 - [ ] Execute: `taurusdevicepanel sys/tg_test/1`
 - [ ] Check that it opens correctly and that the attrs and commands are populated
 - [ ] Execute SwitchStates command (see that the state label changes to FAULT and its color to red)
-      and then execute the Init command and the label returns to RUNNING (green)
+      and then execute the Init command and the label returns to RUNNING (blue)
 
 ### tauruspanel
 - [ ] Execute: `tauruspanel`
@@ -135,7 +138,6 @@ Hint: this list can be used as a template to be copy-pasted on a release PR
 - [ ] Create a new panel (a TaurusForm) and drag and drop several models from other forms
 - [ ] Move panels around (with view unlocked!) and hide ("close") and re-show them
 - [ ] Test saving and restoring perspectives
-- [ ] Test drag&drop from a form to a trend
 - [ ] Test drag&drop from a form to a trend
 - [ ] Test clicking on "example01 synoptic" elements and check that the panels raised
 - [ ] Test that selecting a panel changes the selection on "example01 synoptic"
