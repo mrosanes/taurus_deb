@@ -1,3 +1,14 @@
+taurus (4.3.1a0+git20180305.1.266562-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  [ cfalcon ]
+  * fix watch file
+
+  [ sblanch ]
+  * local package
+  * New upstream version 4.3.1a0+git20180305.1.266562
+
+ -- sblanch <sblanch@cells.es>  Mon, 05 Mar 2018 13:55:40 +0000
+
 taurus (4.3.0a0+git20180216.1.c80da9-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
   * local package
